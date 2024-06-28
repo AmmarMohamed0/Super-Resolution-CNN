@@ -21,7 +21,7 @@ To run the SRCNN project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/srcnn-pytorch.git
+   https://github.com/AmmarMohamed0/Super-Resolution-CNN.git
    cd srcnn-pytorch
    ```
 ## Explanation
