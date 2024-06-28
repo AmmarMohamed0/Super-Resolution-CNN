@@ -8,16 +8,14 @@ This repository contains an implementation of SRCNN for image super-resolution u
 - [Installation](#installation)
 - [Explanation](#explanation)
 - [Results](#results)
-  - [Example](Example)   
+  - [Example](#example)   
 
 ## Overview
 This project implements the SRCNN model in PyTorch, consisting of three convolutional layers. The model is trained on the BSDS500 dataset, employing data augmentation techniques to enhance model generalization. Post-training, the model's performance is evaluated on a validation set using metrics such as PSNR and SSIM.
 
 ## Dataset
 The BSDS500 dataset is utilized for training and validation. It comprises images with diverse resolutions and content, suitable for super-resolution tasks. The dataset is partitioned into training, validation, and test subsets for respective stages of model training, validation, and evaluation.
-### Link of Dataset
-https://www.kaggle.com/datasets/balraj98/berkeley-segmentation-dataset-500-bsds500
-
+For more details, you can access the BSDS500 dataset [here](https://www.kaggle.com/datasets/balraj98/berkeley-segmentation-dataset-500-bsds500).
 ## Installation
 To run the SRCNN project, follow these steps:
 
@@ -88,8 +86,7 @@ To run the SRCNN project, follow these steps:
 
 - **Validation**:
   - Sets the model to evaluation mode (`model.eval()`).
-  - Evaluates the
-
+  
 
 ### Results
 The trained SRCNN model achieves competitive results in terms of PSNR, SSIM, and MSE compared to state-of-the-art super-resolution models. Visualizations of super-resolution outputs demonstrate the effectiveness of the SRCNN architecture in enhancing image details and quality.
